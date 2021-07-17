@@ -1,0 +1,40 @@
+Ques: How to find number of divisors of a number?
+solution:
+
+    REFERENCE: THIS QUESTION IS PART OF PERMUTATIONS AND COMBINATIONS SO YOU CAN REFER TO CLASS 12TH CBSE NCERT MATHEMATICS BOOK
+
+        Hint: To solve this question, we will represent 1400 as powers of prime number and then we will apply the formulas for the number of divisors, the sum of divisors and formula for resolving the number as a product of two factors.
+
+        Complete step-by-step answer:
+
+        Before solving the question, we must know what is a divisor of a number. Divisor of a number ′n′ is the number which leaves no remainder when ‘n’ is divided by that number. In this question, we have three parts to calculate. Before starting to calculate them, we will first represent 1400 in terms of power of prime numbers. Thus, 1400 can also be written as:
+                2|1400
+                 −−−−−
+                2|700
+                 −−−−
+                2|350
+                 −−−−
+                5|175
+                 −−−−
+                5|35
+                 −−−
+                7|7
+                 --
+                  1
+
+                Hence we can say that, 1400=2×2×2×5×5×7
+                ⇒1400=2^3×5^2×7^1
+                Now, we will calculate the number of divisor. The formula for calculating the total number of divisor of a number ′n′ where n can be represent as powers of prime numbers is shown as.
+                |----------------------|
+                | If N=(p^a)(q^b)(r^c) |
+                |----------------------|
+                           ||
+                           \/
+                |---------------------------------------------------|
+                |   Then total number of divisors =(a+1)(b+1)(c+1)  |  =====> This is the formula
+                |---------------------------------------------------|
+
+                NWO TIME FOR BONUS SO TO FIND THE SUM OF ALL THE DIVISORS OF A NUMBER FIRST USE THE ABOVE FORMULA TO FIND THE NUMBER OF DIVISORS AND THEN USE THE BELOW FORMULA TO FIND THE SUM OF ALL THE DIVISORS OF THE GIVEN NUMBR
+                |---------------------------------------------------------------------------------------------|
+                |     Sum of divisors =(p^0+p^1p^P2......p^a)(q^0+q^1+q^2......q^b)(r^0+r^1+r^2......r^c)     |
+                |---------------------------------------------------------------------------------------------|
